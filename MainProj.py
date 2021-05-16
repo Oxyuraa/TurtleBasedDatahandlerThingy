@@ -84,13 +84,12 @@ def WelcomeScreen():
     if Password == "" or Password == None:
         Password = "Nil"
     text.sety(50)
-    texthid = ""
     for char in range(0,len(Password)):
-        texthid = "x" * char
-
-
+        texthid = "x" * (1 + char)
     tyeffect("Password = " + texthid, speed = 0.02, size = 20)
 
+
+    wait(3) #--sleep for some time bud, i gotta see my cring
 #-------------------------------------------------------------
 #-------------------------------------------------------------
 
