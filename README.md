@@ -1,5 +1,5 @@
 # TurtleBasedDatahandlerThingy
-i dont even know what am i doing at this point
+"this is a cry for help"
 yea btw...ip project, gib marks, pass the class thingy
 
 i hate school ;-;
