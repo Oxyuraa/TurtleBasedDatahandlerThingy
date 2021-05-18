@@ -17,13 +17,12 @@ window.tracer(0)
 #-------------------------------------------------------------
 #-- Global Cursors
 
-global text, canvas
+global text
 text = turtle.Turtle()
 text.speed(0)
 text.color('white')
 text.hideturtle()
 
-canvas = window.getcanvas()
 
 #-------------------------------------------------------------
 #-------------------------------------------------------------
@@ -189,5 +188,5 @@ def MainScreen():
 #-------------------------------------------------------------
 
 #-- Start the car vroom vroom skrrt whoosh dabslhidawhv ;-;
-TESTSCREEN()
+LoadingScreen()
 window.mainloop()
