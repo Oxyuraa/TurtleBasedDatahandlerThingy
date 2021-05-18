@@ -1,16 +1,14 @@
-from tkinter.constants import CENTER, LEFT, TOP
 import turtle
 from time import sleep as wait
-from numpy import NaN, nan
+import numpy as np
 from playsound import playsound
 import csv
 import pandas as pd
 import mysql.connector
-import tkinter as tk
 #-------------------------------------------------------------
 
 window = turtle.Screen()
-window.title("TEST BUILD 0.0.1")
+window.title("TEST BUILD 0.0.5")
 window.bgcolor("black")
 window.setup(width = 800, height = 600)
 window.tracer(0)
@@ -136,7 +134,7 @@ def WelcomeScreen():
         WelcomeScreen()
 
     
-def TESTSCREEN(x = nan,y = nan):
+def TESTSCREEN(x = 0 ,y = 0):
     def InputAdderThingy(x , y, df):
         rowName = input("add what -- ")
         age = input("value pls thank == ")
